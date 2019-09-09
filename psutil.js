@@ -37,5 +37,5 @@ function rotate(str) {
 	return flipHorizontal(lines.join("\n"));
 }
 function changeInput(theFunction) {
-	$('#input').val(theFunction($.trim($('#input').val())))
+	$('#input').val(theFunction($('#input').val()))
 }
